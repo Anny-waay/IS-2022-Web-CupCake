@@ -15,6 +15,23 @@
             min-height: 40px;
             max-height: 65px;
         }
+        .container{
+            width: 100%;
+            position: relative;
+            margin: 0 auto;
+            z-index: 30;
+        }
+        .item-category {
+            width: 250px;
+            height: 250px;
+            display: inline-block;
+            overflow: hidden;
+            text-align: left;
+        }
+        .slider {
+            height: 200px;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
@@ -33,5 +50,43 @@
             <a>Контакты</a>
         </nav>
     </header>
+    <main>
+        <article>
+            <q><i>Сладости</i> — лучшее лекарство от слез девушки.</q>
+            <pre>
+                ┈┈┈☆☆☆☆☆☆☆☆☆┈┈┈
+                ┈┈╭┻┻┻┻┻┻┻┻┻╮┈┈
+                ┈┈┃╱╲╱╲╱╲╱╲╱┃┈┈
+                ┈╭┻━━━━━━━━━┻╮┈
+                ┈┃╱╲╱╲╱╲╱╲╱╲╱┃┈
+                ┈┗━━━━━━━━━━━┛┈
+            </pre>
+        </article>
+        <section>
+            <div class="container">
+                <div class="item-category tort">
+                    <p>Торты</p>
+                </div>
+                <div class="item-category bento-tort">
+                    <p>Бенто-торты</p>
+                </div>
+                <div class="item-category cupcake">
+                    <p>Кексы</p>
+                </div>
+                <div class="item-category donut">
+                    <p>Пончики</p>
+                </div>
+                <div class="item-category cake">
+                    <p>Пирожные</p>
+                </div>
+                <div class="item-category drinks">
+                    <p>Чай&Кофе</p>
+                </div>
+            </div>
+        </section>
+        <section class="slider">
+            <p>Тут будет слайдер</p>
+        </section>
+    </main>
 </body>
 </html>
