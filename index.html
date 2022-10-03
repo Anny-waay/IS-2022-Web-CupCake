@@ -4,49 +4,30 @@
     <title>Cup&Cake</title>
     <meta charset="UTF-8">
     <meta name="keywords" content="торт, пирожное, десерт, сладости">
-    <style>
-        h1 {
-            text-align: center;
-        }
-        .navbar {
-            position: relative;
-            text-align: center;
-            min-height: 40px;
-            max-height: 65px;
-        }
-        .container{
-            width: 100%;
-            position: relative;
-            margin: 0 auto;
-            z-index: 30;
-        }
-        .item-category {
-            width: 250px;
-            height: 250px;
-            display: inline-block;
-            overflow: hidden;
-            text-align: left;
-        }
-        .slider {
-            height: 200px;
-            width: 100%;
-        }
-    </style>
+    <link href="css/site.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/cake_logo.png" type="image/png">
 </head>
 <body>
     <header>
-        <span>
-            <strong>8-800-888-80-88</strong>
-            <br>
-            <small>принимаем заказы с 9:00 до 19:00</small>
-        </span>
-        <h1>Cup&Cake</h1>
-
+        <div class="container">
+            <div style="float: left">
+                <strong><a href="tel:88008888088"><img id="ringer_icon" src="images/ringer.png" alt="Ring">8-800-888-80-88</a></strong>
+                <br>
+                <small>принимаем заказы с 9:00 до 19:00</small>
+            </div>
+            <h1><img id="cup_logo" src="images/cup_logo.png" alt="Cup">Cup&Cake<img id="cake_logo" src="images/cake_logo.png" alt="Cupcake"></h1>
+            <a href="#"><img class="icons" src="images/basket.png" alt="Basket"></a>
+            <a href="#"><img class="icons" src="images/heart.png" alt="Favorites"></a>
+            <a href="#"><img class="icons" src="images/user.png" alt="Personal area"></a>
+            <a href="#"><img class="icons" src="images/search.png" alt="Search"></a>
+        </div>
         <nav class="navbar">
-            <a href="index.html">Каталог</a> |
-            <a href="index.html">Конструктор десертов</a> |
-            <a href="index.html">Доставка</a> |
-            <a href="index.html">Контакты</a>
+            <ul>
+                <li><a href="index.html">Каталог</a></li>
+                <li><a href="index.html">Конструктор десертов</a></li>
+                <li><a href="index.html">Доставка</a></li>
+                <li><a href="index.html">Контакты</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -62,7 +43,7 @@
             </pre>
             <p>Вкусный десерт &ne; сахар<sup>2</sup></p>
         </article>
-        <section class="container">
+        <section class="category">
             <div class="item-category tort">
                 <p>Торты</p>
             </div>
@@ -98,6 +79,5 @@
             <li>Спб, Кронверский пр. 20 </li>
         </ul>
     </footer>
-    <script src="https://rawcdn.githack.com/ArtMan-8/outline-prototype/e73da2a1ee9031564b56ed5d98541891f7123933/js/outline-control.js"></script>
 </body>
 </html>

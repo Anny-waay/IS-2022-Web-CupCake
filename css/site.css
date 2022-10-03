@@ -1,0 +1,84 @@
+body{
+    font-family: "Gill Sans";
+}
+
+.container{
+    width: 100%;
+    height: 2.5em;
+    float: top;
+    margin: 1% 0;
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+h1 {
+    float: top;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    margin-top: 0;
+    text-align: center;
+    font-family: Copperplate;
+    color: #871A62;
+}
+
+#ringer_icon{
+    width: 1em;
+    padding-right: 0.2em;
+}
+
+#cup_logo{
+    width: 1em;
+    padding-right: 0.3em;
+}
+
+#cake_logo{
+    width: 0.85em;
+    padding-left: 0.2em;
+}
+
+.icons{
+    width: 25px;
+    padding: 5px;
+    float: right;
+}
+.navbar {
+    width: 100%;
+    text-align: center;
+    background-color: #FFA5CD;
+    padding: 10px 0;
+}
+
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    color: white;
+    padding: 10px 20px;
+}
+.category{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    z-index: 30;
+}
+.item-category {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    overflow: hidden;
+    text-align: left;
+}
+.slider {
+    height: 200px;
+    width: 100%;
+}
