@@ -11,15 +11,15 @@
     <header>
         <div class="container">
             <div style="float: left">
-                <strong><a href="tel:88008888088"><img id="ringer_icon" src="images/ringer.png" alt="Ring">8-800-888-80-88</a></strong>
+                <strong><a href="tel:88008888088"><img id="ringer-icon" src="images/ringer.png" alt="Телефон">8-800-888-80-88</a></strong>
                 <br>
                 <small>принимаем заказы с 9:00 до 19:00</small>
             </div>
-            <h1><img id="cup_logo" src="images/cup_logo.png" alt="Cup">Cup&Cake<img id="cake_logo" src="images/cake_logo.png" alt="Cupcake"></h1>
-            <a href="#"><img class="icons" src="images/basket.png" alt="Basket"></a>
-            <a href="#"><img class="icons" src="images/heart.png" alt="Favorites"></a>
-            <a href="#"><img class="icons" src="images/user.png" alt="Personal area"></a>
-            <a href="#"><img class="icons" src="images/search.png" alt="Search"></a>
+            <h1><img id="cup-logo" src="images/cup_logo.png" alt="Cup">Cup&Cake<img id="cake-logo" src="images/cake_logo.png" alt="Cupcake"></h1>
+            <a href="#"><img class="icons" src="images/basket.png" alt="Корзина"></a>
+            <a href="#"><img class="icons" src="images/heart.png" alt="Сердце"></a>
+            <a href="#"><img class="icons" src="images/user.png" alt="Пользователь"></a>
+            <a href="#"><img class="icons" src="images/search.png" alt="Поиск"></a>
         </div>
         <nav class="navbar">
             <ul>
@@ -31,47 +31,79 @@
         </nav>
     </header>
     <main>
-        <article>
-            <q><i>Сладости</i> — лучшее лекарство от слез девушки.</q>
-            <pre>
-                ┈┈┈☆☆☆☆☆☆☆☆☆┈┈┈
-                ┈┈╭┻┻┻┻┻┻┻┻┻╮┈┈
-                ┈┈┃╱╲╱╲╱╲╱╲╱┃┈┈
-                ┈╭┻━━━━━━━━━┻╮┈
-                ┈┃╱╲╱╲╱╲╱╲╱╲╱┃┈
-                ┈┗━━━━━━━━━━━┛┈
-            </pre>
-            <p>Вкусный десерт &ne; сахар<sup>2</sup></p>
-        </article>
+        <div class="img-container">
+            <img id="quote-img" src="images/quote.jpeg" alt="Торт">
+            <q id="quote"><i>Сладости</i> — лучшее лекарство от слез девушки</q>
+        </div>
+
         <section class="category">
-            <div class="item-category tort">
-                <p>Торты</p>
+            <div class="img-container">
+                <img class="item-category" src="images/cake.jpeg" alt="Торт">
+                <p class="item-category-text">Торты</p>
             </div>
-            <div class="item-category bento-tort">
-                <p>Бенто-торты</p>
+            <div class="img-container">
+                <img class="item-category" src="images/bento.jpeg" alt="Бенто-торт">
+                <p class="item-category-text">Бенто-торты</p>
             </div>
-            <div class="item-category cupcake">
-                <p>Кексы</p>
+            <div class="img-container">
+                <img class="item-category" src="images/cupcake.jpeg" alt="Кексы">
+                <p class="item-category-text">Кексы</p>
             </div>
-            <div class="item-category donut">
-                <p>Пончики</p>
+            <div class="img-container">
+                <img class="item-category" src="images/donuts.jpeg" alt="Пончики">
+                <p class="item-category-text">Пончики</p>
             </div>
-            <div class="item-category cake">
-                <p>Пирожные</p>
+            <div class="img-container">
+                <img class="item-category" src="images/macarun.jpeg" alt="Макаруны">
+                <p class="item-category-text">Макарун</p>
             </div>
-            <div class="item-category drinks">
-                <p>Чай&Кофе</p>
+            <div class="img-container">
+                <img class="item-category" src="images/coffee.jpeg" alt="Чашка кофе">
+                <p class="item-category-text">Чай&Кофе</p>
             </div>
         </section>
-        <section class="slider">
-            <p>Тут будет слайдер, а пока...</p>
-            <pre><code>public static void main(String[] args) {
-    System.out.println("Hello, visitors!");
-}</code></pre>
+        <section>
+            <h2>Специальные предложения</h2>
+            <div class="product-wrap">
+                <div class="product-img">
+                    <img class="product" src="images/coffee_cake.jpeg" alt="Кофе и торт">
+                    <img class="wishlist-img" src="images/wishlist.png" alt="Розовое сердце">
+                </div>
+                <div class="product-description">
+                    <h4>Кофе арабика +
+                        <br>
+                        торт "Лесные ягоды"</h4>
+                    <span class="prev-price">3000 </span><span class="actual-price"> 1999 &#8381; </span>
+                </div>
+            </div>
+            <div class="product-wrap">
+                <div class="product-img">
+                    <img class="product" src="images/cupcakes_helloween.jpeg" alt="Кексы на хэллоуин">
+                    <img class="wishlist-img" src="images/wishlist.png" alt="Розовое сердце">
+                </div>
+                <div class="product-description">
+                    <h4>Капкейки
+                        <br>
+                        Хэллоуин</h4>
+                    <span class="prev-price">2000 </span><span class="actual-price"> 1500 &#8381; </span>
+                </div>
+            </div>
+            <div class="product-wrap">
+                <div class="product-img">
+                    <img class="product" src="images/tea_cake.jpg" alt="Чай и торт">
+                    <img class="wishlist-img" src="images/wishlist.png" alt="Розовое сердце">
+                </div>
+                <div class="product-description">
+                    <h4>Чай "Эрл Грей" +
+                        <br>
+                        Лимонный тарт</h4>
+                    <span class="prev-price">2500 </span><span class="actual-price"> 1800 &#8381; </span>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-        <h4>Контактная информация</h4>
+        <h3>Контактная информация</h3>
         <ul>
             <li><strong><a href="tel:88008888088">8-800-888-80-88</a></strong></li>
             <li><a href="mailto:cup-and-cake@mail.ru">cup-and-cake@mail.ru</a></li>
