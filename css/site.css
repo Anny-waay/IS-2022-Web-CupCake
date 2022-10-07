@@ -79,8 +79,11 @@ h2{
 }
 
 #quote-img{
-    width: 100%;
-    padding: 1% 0;
+    width: 99.7%;
+    border-color: #828DDF;
+    border-style: solid;
+    border-width: 2px;
+    margin: 1% 0;
 }
 
 #quote{
@@ -96,11 +99,14 @@ h2{
     width: 100%;
     position: relative;
 }
-
-.item-category {
+.category-container{
     width: 30%;
-    border-color: #871A62;
-    border-style: ridge;
+    position: relative;
+    display: inline-block;
+    margin: 1.5%;
+}
+.item-category {
+    width: 100%;
     border-radius: 0 5%;
     border-width: 0.15em;
     text-align: left;
@@ -113,8 +119,8 @@ h2{
     text-transform: uppercase;
     color: #871A62;
     position: absolute;
-    top: 2%;
-    left: 2%;
+    top: 7%;
+    left: 7%;
 }
 
 .product-wrap {
