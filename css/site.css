@@ -31,7 +31,11 @@ h2{
     text-align: center;
     font-family: Copperplate;
 }
-#ringer-icon{
+h3{
+    font-family: Copperplate;
+}
+
+.text-icon{
     width: 1em;
     padding-right: 0.2em;
 }
@@ -46,7 +50,7 @@ h2{
     padding-left: 0.2em;
 }
 
-.icons{
+header .icons{
     width: 25px;
     padding: 5px;
     float: right;
@@ -125,6 +129,9 @@ h2{
     left: 7%;
 }
 
+.special-offer{
+    margin-bottom: 3%;
+}
 .product-wrap {
     width: 25%;
     text-align: center;
@@ -133,34 +140,88 @@ h2{
     margin: 1% 4%;
     display: inline-block;
 }
+
 .product-img {
     position: relative;
 }
-.product-img a {
-    display: block;
-}
+
 .product {
     display: block;
     width: 100%;
 }
+
 .wishlist-img{
     position: absolute;
     top: 1%;
     right: 1%;
     width: 12%;
 }
+
 .product-description {
-    margin-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 5%;
+    padding-bottom: 5%;
     text-align: center;
     font-family: 'Open Sans', serif;
 }
+
 .prev-price {
     font-size: medium;
     text-decoration: line-through;
 }
+
 .actual-price {
     font-weight: bold;
     font-size: medium;
     color: #ff7659;
+}
+
+footer{
+    background-color: #EDF3FF;
+    color: #828DDF
+}
+
+footer a{
+    color: #828DDF;
+}
+
+.text-columns {
+    white-space: nowrap;
+}
+
+.text-columns-item {
+    white-space: normal;
+    display: inline-block;
+    vertical-align: top;
+    margin: 2% 4%;
+}
+
+.contacts{
+    width: 23%;
+}
+
+.delivery{
+    width: 60%;
+}
+
+.contact{
+    margin: 2% 0;
+}
+
+#telegram{
+    width: 2.5em;
+    padding-bottom: 0.25em;
+}
+
+footer .icons{
+    display: inline-block;
+    width: 3em;
+    margin-right: 0.4em;
+    margin-top: 0.6em;
+}
+
+footer ul{
+    padding-inline-start: 20px;
+}
+footer li{
+    padding: 0.3em 0;
 }
