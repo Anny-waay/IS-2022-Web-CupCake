@@ -105,12 +105,14 @@ header .icons{
     width: 100%;
     position: relative;
 }
+
 .category-container{
     width: 30%;
     position: relative;
     display: inline-block;
     margin: 1.5%;
 }
+
 .item-category {
     width: 100%;
     border-radius: 0 5%;
@@ -218,6 +220,7 @@ footer a{
 }
 
 .contact{
+    display: block;
     margin: 2% 0;
 }
 
@@ -234,8 +237,10 @@ footer .icons{
 }
 
 footer ul{
+    list-style-type: circle;
     padding-inline-start: 20px;
 }
+
 footer li{
     padding: 0.3em 0;
 }
