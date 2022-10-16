@@ -26,10 +26,12 @@ h1 {
     font-family: Copperplate;
     color: #871A62;
 }
+
 h2{
     text-align: center;
     font-family: Copperplate;
 }
+
 h3{
     font-family: Copperplate;
 }
@@ -223,6 +225,7 @@ header .icons{
 }
 
 footer{
+    position: absolute;
     background-color: #EDF3FF;
     color: #828DDF
 }
@@ -244,26 +247,32 @@ footer a{
 }
 
 #contacts-side{
-    width: 23%;
+    width: 25%;
 }
 
-#delivery{
-    width: 60%;
-}
-
-.big-contact{
+.contact-side{
     display: block;
     margin: 2% 0;
 }
 
+.left-contact{
+    float: left;
+    display: block;
+    margin: 10px 40px;
+}
+
+.right-icons{
+    float: right;
+}
+
 .telegram{
     width: 2.5em;
+    margin-right: 0.4em;
     padding-bottom: 0.25em;
 }
 
 footer .icons{
     display: inline-block;
-    width: 3em;
     margin-right: 0.4em;
     margin-top: 0.6em;
 }

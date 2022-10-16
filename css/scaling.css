@@ -8,6 +8,9 @@
     h2{
         font-size: 20px;
     }
+    h3{
+        font-size: 20px;
+    }
     h4{
         font-size: 16px;
     }
@@ -47,6 +50,24 @@
     .product-wrap button{
         font-size: 10px;
     }
+    footer .icons{
+         width: 40px;
+     }
+    .telegram{
+        width: 33px;
+    }
+    .right-icons{
+        margin: 70px 10px 20px;
+    }
+    #contacts-side{
+        display: none;
+    }
+    #delivery{
+        font-size: 15px;
+    }
+    #contacts-bottom{
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width: 700px) and (max-width: 900px){
@@ -58,6 +79,9 @@
     }
     h2{
         font-size: 25px;
+    }
+    h3{
+        font-size: 20px;
     }
     h4 {
         font-size: 17px;
@@ -98,6 +122,24 @@
     .product-wrap button{
         font-size: 11px;
     }
+    footer .icons{
+         width: 45px;
+     }
+    .telegram{
+        width: 38px;
+    }
+    .right-icons{
+        margin: 60px 10px 20px;
+    }
+    #contacts-side{
+        display: none;
+    }
+    #delivery{
+        font-size: 16px;
+    }
+    #contacts-bottom{
+        font-size: 16px;
+    }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1240px){
@@ -109,6 +151,9 @@
     }
     h2{
         font-size: 30px;
+    }
+    h3{
+        font-size: 25px;
     }
     h4{
         font-size: 18px;
@@ -149,6 +194,24 @@
     .product-wrap button{
         font-size: 12px;
     }
+    footer .icons{
+        width: 50px;
+    }
+    .telegram{
+        width: 43px;
+    }
+    .right-icons{
+         margin: 80px 10px 20px;
+     }
+    #contacts-side{
+        display: none;
+    }
+    #delivery{
+        font-size: 17px;
+    }
+    #contacts-bottom{
+        font-size: 17px;
+    }
 }
 
 @media screen and (min-width: 1240px) and (max-width: 2000px){
@@ -160,6 +223,9 @@
     }
     h2{
         font-size: 35px;
+    }
+    h3{
+        font-size: 25px;
     }
     h4{
         font-size: 20px;
@@ -197,6 +263,22 @@
     .product-wrap button{
         font-size: 13px;
     }
+    footer .icons{
+        width: 50px;
+    }
+    .telegram{
+        width: 43px;
+    }
+    .contact-side{
+        font-size: 18px;
+    }
+    #delivery{
+        width: 60%;
+        font-size: 18px;
+    }
+    #contacts-bottom{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 2000px){
@@ -208,6 +290,9 @@
     }
     h2 {
         font-size: 40px;
+    }
+    h3{
+        font-size: 30px;
     }
     h4{
         font-size: 25px;
@@ -244,5 +329,21 @@
     }
     .product-wrap button{
         font-size: 16px;
+    }
+    footer .icons{
+        width: 55px;
+    }
+    .telegram{
+        width: 48px;
+    }
+    .contact-side{
+        font-size: 23px;
+    }
+    #delivery{
+        width: 60%;
+        font-size: 23px;
+    }
+    #contacts-bottom{
+        display: none;
     }
 }
