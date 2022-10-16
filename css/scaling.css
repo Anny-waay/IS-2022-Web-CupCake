@@ -1,0 +1,144 @@
+@media screen and (max-width: 700px) {
+    h2{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    #quote{
+        font-size: 20px;
+    }
+    .category-container{
+        width: 47%;
+        margin: 1.5%;
+    }
+    .item-category-text {
+        font-size: 15px;
+    }
+    .product-wrap {
+        width: 35%;
+        margin: 1% 7%;
+    }
+    .product-description {
+        font-size: 15px;
+    }
+    .product-wrap button{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px){
+    h2{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 17px;
+    }
+    #quote{
+        font-size: 25px;
+    }
+    .category-container{
+        width: 47%;
+        margin: 1.5%;
+    }
+    .item-category-text {
+        font-size: 20px;
+    }
+    .product-wrap {
+        width: 35%;
+        margin: 1% 7%;
+    }
+    .product-description {
+        font-size: 16px;
+    }
+    .product-wrap button{
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1240px){
+    h2{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    #quote{
+        font-size: 30px;
+    }
+    .category-container{
+        width: 47%;
+        margin: 1.5%;
+    }
+    .item-category-text {
+        font-size: 25px;
+    }
+    .product-wrap {
+        width: 35%;
+        margin: 1% 7%;
+    }
+    .product-description {
+        font-size: 17px;
+    }
+    .product-wrap button{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1240px) and (max-width: 2000px){
+    h2{
+        font-size: 35px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    #quote{
+        font-size: 35px;
+    }
+    .category-container{
+        width: 30%;
+        margin: 1.5%;
+    }
+    .item-category-text {
+        font-size: 25px;
+    }
+    .product-wrap {
+        width: 25%;
+        margin: 1% 4%;
+    }
+    .product-description {
+        font-size: 18px;
+    }
+    .product-wrap button{
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 2000px){
+    h2 {
+        font-size: 40px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    #quote{
+        font-size: 40px;
+    }
+    .category-container{
+        width: 27%;
+        margin: 1.5% 2.5%;
+    }
+    .item-category-text {
+        font-size: 30px;
+    }
+    .product-wrap {
+        width: 22%;
+        margin: 1% 5.2%;
+    }
+    .product-description {
+        font-size: 23px;
+    }
+    .product-wrap button{
+        font-size: 16px;
+    }
+}
