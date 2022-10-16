@@ -29,6 +29,7 @@
     }
     header .icons{
         width: 25px;
+        padding: 7px 5px;
     }
     #quote{
         font-size: 20px;
@@ -101,6 +102,7 @@
     }
     header .icons{
         width: 30px;
+        padding: 7px 5px;
     }
     #quote{
         font-size: 25px;
@@ -173,6 +175,7 @@
     }
     header .icons{
         width: 35px;
+        padding: 7px;
     }
     #quote{
         font-size: 30px;
@@ -239,6 +242,7 @@
     }
     header .icons{
         width: 35px;
+        padding: 7px;
     }
     .navbar a{
         font-size: 25px;
@@ -306,6 +310,7 @@
     }
     header .icons{
         width: 40px;
+        padding: 7px;
     }
     .navbar a{
         font-size: 30px;
