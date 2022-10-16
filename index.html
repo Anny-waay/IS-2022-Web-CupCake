@@ -11,7 +11,19 @@
 <body>
     <header>
         <div class="container">
-            <div style="float: left">
+            <div class="small-contact">
+                <div class="dropdown">
+                    <button><img class="drop-btn" src="images/menu.png" alt="Меню"></button>
+                    <div class="dropdown-content">
+                        <a href="#">Каталог</a>
+                        <a href="#">Конструктор десертов</a>
+                        <a href="#delivery">Доставка</a>
+                        <a href="#contacts-bottom">Контакты</a>
+                    </div>
+                </div>
+                <a href="tel:88008888088"><img class="icons" src="images/ringer.png" alt="Телефон"></a>
+            </div>
+            <div class="big-contact">
                 <strong><a href="tel:88008888088"><img class="text-icon" src="images/ringer.png" alt="Телефон">8-800-888-80-88</a></strong>
                 <br>
                 <small>принимаем заказы с 9:00 до 19:00</small>
@@ -26,8 +38,8 @@
             <ul>
                 <li><a href="index.html">Каталог</a></li>
                 <li><a href="index.html">Конструктор десертов</a></li>
-                <li><a href="index.html">Доставка</a></li>
-                <li><a href="index.html">Контакты</a></li>
+                <li><a href="#delivery">Доставка</a></li>
+                <li><a href="#contacts-side">Контакты</a></li>
             </ul>
         </nav>
     </header>
@@ -108,15 +120,15 @@
     </main>
     <footer>
         <div class="text-columns">
-            <div class="text-columns-item contacts">
+            <div id="contacts-side" class="text-columns-item">
                 <h3>Контактная информация</h3>
-                <a href="tel:88008888088" class="contact"><img class="text-icon" src="images/ringer_violet.png" alt="Звонок"><strong>8-800-888-80-88</strong></a>
-                <span class="contact"><img class="text-icon" src="images/address.png" alt="Адрес">Санкт-Петербург, Кронверский пр-кт, 20</span>
+                <a href="tel:88008888088" class="big-contact"><img class="text-icon" src="images/ringer_violet.png" alt="Звонок"><strong>8-800-888-80-88</strong></a>
+                <span class="big-contact"><img class="text-icon" src="images/address.png" alt="Адрес">Санкт-Петербург, Кронверский пр-кт, 20</span>
                 <a href="mailto:cup-and-cake@mail.ru"><img class="icons" src="images/mail.png" alt="Почта"></a>
-                <a href="https://t.me/cup-and-cake"><img id="telegram" class="icons" src="images/telegram.png" alt="Телеграм"></a>
+                <a href="https://t.me/cup-and-cake"><img class="telegram icons" src="images/telegram.png" alt="Телеграм"></a>
                 <a href="https://vk.com/cup-and-cake"><img class="icons" src="images/vk.png" alt="Вконтакте"></a>
             </div>
-            <div class="text-columns-item delivery">
+            <div id="delivery" class="text-columns-item">
                 <h3>Доставка</h3>
                 <p>Доставка осуществляется по Санкт-Петербургу при сумме заказа от 1500&#8381;</p>
                 <ul>
@@ -127,6 +139,14 @@
                 </ul>
                 <p>Самовывоз: бесплатно из нашего магазина с 9:00 до 21:00</p>
             </div>
+        </div>
+        <div id="contacts-bottom">
+            <h3>Контактная информация</h3>
+            <a href="tel:88008888088" class="big-contact"><img class="text-icon" src="images/ringer_violet.png" alt="Звонок"><strong>8-800-888-80-88</strong></a>
+            <span class="big-contact"><img class="text-icon" src="images/address.png" alt="Адрес">Санкт-Петербург, Кронверский пр-кт, 20</span>
+            <a href="mailto:cup-and-cake@mail.ru"><img class="icons" src="images/mail.png" alt="Почта"></a>
+            <a href="https://t.me/cup-and-cake"><img class="telegram icons" src="images/telegram.png" alt="Телеграм"></a>
+            <a href="https://vk.com/cup-and-cake"><img class="icons" src="images/vk.png" alt="Вконтакте"></a>
         </div>
     </footer>
 </body>

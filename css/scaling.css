@@ -1,9 +1,31 @@
 @media screen and (max-width: 700px) {
+    .container{
+        height: 40px;
+    }
+    h1 {
+        font-size: 30px;
+    }
     h2{
         font-size: 20px;
     }
     h4{
         font-size: 16px;
+    }
+    .big-contact{
+        display: none;
+    }
+    .drop-btn{
+        padding: 2px 0;
+        width: 28px;
+    }
+    .dropdown-content a {
+        font-size: 17px;
+    }
+    .navbar{
+        display: none;
+    }
+    header .icons{
+        width: 25px;
     }
     #quote{
         font-size: 20px;
@@ -28,11 +50,33 @@
 }
 
 @media screen and (min-width: 700px) and (max-width: 900px){
+    .container{
+        height: 45px;
+    }
+    h1 {
+        font-size: 35px;
+    }
     h2{
         font-size: 25px;
     }
-    h4{
+    h4 {
         font-size: 17px;
+    }
+    .big-contact{
+         display: none;
+     }
+    .drop-btn{
+        padding: 2px 0;
+        width: 32px;
+    }
+    .dropdown-content a {
+        font-size: 18px;
+    }
+    .navbar{
+        display: none;
+    }
+    header .icons{
+        width: 30px;
     }
     #quote{
         font-size: 25px;
@@ -57,11 +101,33 @@
 }
 
 @media screen and (min-width: 900px) and (max-width: 1240px){
+    .container{
+        height: 40px;
+    }
+    h1 {
+        font-size: 40px;
+    }
     h2{
         font-size: 30px;
     }
     h4{
         font-size: 18px;
+    }
+    .big-contact{
+        display: none;
+    }
+    .drop-btn{
+        padding: 2px 0;
+        width: 37px;
+    }
+    .dropdown-content a {
+        font-size: 20px;
+    }
+    .navbar{
+        display: none;
+    }
+    header .icons{
+        width: 35px;
     }
     #quote{
         font-size: 30px;
@@ -86,11 +152,30 @@
 }
 
 @media screen and (min-width: 1240px) and (max-width: 2000px){
+    .container{
+        height: 50px;
+    }
+    h1 {
+        font-size: 40px;
+    }
     h2{
         font-size: 35px;
     }
     h4{
         font-size: 20px;
+    }
+    .big-contact{
+        font-size: 17px;
+        margin: 5px;
+    }
+    .small-contact{
+        display: none;
+    }
+    header .icons{
+        width: 35px;
+    }
+    .navbar a{
+        font-size: 25px;
     }
     #quote{
         font-size: 35px;
@@ -115,11 +200,30 @@
 }
 
 @media screen and (min-width: 2000px){
+    .container{
+        height: 55px;
+    }
+    h1 {
+        font-size: 45px;
+    }
     h2 {
         font-size: 40px;
     }
     h4{
         font-size: 25px;
+    }
+    .big-contact{
+        font-size: 18px;
+        margin: 5px;
+    }
+    .small-contact{
+        display: none;
+    }
+    header .icons{
+        width: 40px;
+    }
+    .navbar a{
+        font-size: 30px;
     }
     #quote{
         font-size: 40px;
