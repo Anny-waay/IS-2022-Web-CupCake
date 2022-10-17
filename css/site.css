@@ -4,11 +4,17 @@ body{
     margin: 0;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    z-index: 9998!important;
+}
 .container{
     position: relative;
+    background: white;
     width: 98%;
     float: top;
-    margin: 1%;
+    padding: 1.5% 1% 2.2%;
 }
 
 header a{
@@ -97,7 +103,8 @@ header .icons{
     width: 100%;
     text-align: center;
     background-color: #FFA5CD;
-    padding: 10px 0;
+    padding: 1.5% 0;
+    margin-bottom: 1%;
 }
 
 .navbar ul{
@@ -126,7 +133,7 @@ header .icons{
     border-color: #828DDF;
     border-style: solid;
     border-width: 2px;
-    margin: 1%;
+    margin: 0 1%;
 }
 
 #quote{
