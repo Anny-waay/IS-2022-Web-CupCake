@@ -9,6 +9,7 @@ header{
     top: 0;
     z-index: 9998!important;
 }
+
 .container{
     position: relative;
     background: white;
@@ -245,7 +246,6 @@ footer a{
 }
 
 .text-columns-item {
-    font-size: medium;
     white-space: normal;
     display: inline-block;
     vertical-align: top;
@@ -283,11 +283,21 @@ footer .icons{
     margin-top: 0.6em;
 }
 
-footer ul{
-    list-style-type: circle;
-    padding-inline-start: 20px;
+th {
+    border-bottom: 1.5px solid #828DDF;
+    border-top: 1.5px solid #828DDF;
+    padding: 10px 15px;
 }
 
-footer li{
-    padding: 0.3em 0;
+td {
+    padding: 10px 15px;
+}
+
+tr:nth-child(2n - 1) {
+    background: #DFE9FF;
+}
+
+.delivery-price{
+    font-weight: bold;
+    text-align: center;
 }
