@@ -1,5 +1,5 @@
 body{
-    font-family: 'Gill Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -30,17 +30,17 @@ h1 {
     transform: translateX(-50%);
     display: block;
     margin-top: 0;
-    font-family: 'Copperplate', sans-serif;
+    font-family: 'Black Ops One', cursive;
     color: #871A62;
 }
 
 h2{
     text-align: center;
-    font-family: 'Copperplate', sans-serif;
+    font-family: 'Podkova', serif;
 }
 
 h3{
-    font-family: 'Copperplate', sans-serif;
+    font-family: 'Podkova', serif;
 }
 
 .big-contact{
@@ -70,7 +70,7 @@ header button{
 
 .dropdown-content a {
     color: white;
-    font-family: 'Copperplate', sans-serif;
+    font-family: 'Podkova', serif;
     text-align: center;
     padding: 12px 16px;
     text-decoration: none;
@@ -121,7 +121,7 @@ header .icons{
 .navbar a{
     color: white;
     font-size: larger;
-    font-family: 'Copperplate', sans-serif;
+    font-family: 'Podkova', serif;
     padding: 10px 20px;
 }
 
@@ -166,7 +166,7 @@ header .icons{
 
 .item-category-text{
     font-weight: bold;
-    font-family: 'Copperplate', sans-serif;
+    font-family: 'Podkova', serif;
     text-transform: uppercase;
     color: #871A62;
     position: absolute;
@@ -219,7 +219,7 @@ header .icons{
     margin-top: 5%;
     padding-bottom: 5%;
     text-align: center;
-    font-family: 'Open Sans', serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .prev-price {
