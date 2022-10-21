@@ -24,7 +24,6 @@ header a{
 }
 
 h1 {
-    float: top;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -139,6 +138,8 @@ header .icons{
 
 #quote{
     width: 45%;
+    text-indent: 10%;
+    font-style: italic;
     color: #828DDF;
     position: absolute;
     bottom: 50%;
@@ -291,6 +292,7 @@ th {
 
 td {
     padding: 10px 15px;
+    line-height: 1.5;
 }
 
 tr:nth-child(2n - 1) {
