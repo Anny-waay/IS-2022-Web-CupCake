@@ -4,100 +4,129 @@
     <title>Cup&Cake</title>
     <meta charset="UTF-8">
     <meta name="keywords" content="торт, пирожное, десерт, сладости">
-    <style>
-        h1 {
-            text-align: center;
-        }
-        .navbar {
-            position: relative;
-            text-align: center;
-            min-height: 40px;
-            max-height: 65px;
-        }
-        .container{
-            width: 100%;
-            position: relative;
-            margin: 0 auto;
-            z-index: 30;
-        }
-        .item-category {
-            width: 250px;
-            height: 250px;
-            display: inline-block;
-            overflow: hidden;
-            text-align: left;
-        }
-        .slider {
-            height: 200px;
-            width: 100%;
-        }
-    </style>
+    <link href="css/site.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/cake_logo.png" type="image/png">
 </head>
 <body>
     <header>
-        <span>
-            <strong>8-800-888-80-88</strong>
-            <br>
-            <small>принимаем заказы с 9:00 до 19:00</small>
-        </span>
-        <h1>Cup&Cake</h1>
-
+        <div class="container">
+            <div style="float: left">
+                <strong><a href="tel:88008888088"><img class="text-icon" src="images/ringer.png" alt="Телефон">8-800-888-80-88</a></strong>
+                <br>
+                <small>принимаем заказы с 9:00 до 19:00</small>
+            </div>
+            <h1><img id="cup-logo" src="images/cup_logo.png" alt="Cup">Cup&Cake<img id="cake-logo" src="images/cake_logo.png" alt="Cupcake"></h1>
+            <a href="#"><img class="icons" src="images/basket.png" alt="Корзина"></a>
+            <a href="#"><img class="icons" src="images/heart.png" alt="Сердце"></a>
+            <a href="#"><img class="icons" src="images/user.png" alt="Пользователь"></a>
+            <a href="#"><img class="icons" src="images/search.png" alt="Поиск"></a>
+        </div>
         <nav class="navbar">
-            <a href="index.html">Каталог</a> |
-            <a href="index.html">Конструктор десертов</a> |
-            <a href="index.html">Доставка</a> |
-            <a href="index.html">Контакты</a>
+            <ul>
+                <li><a href="index.html">Каталог</a></li>
+                <li><a href="index.html">Конструктор десертов</a></li>
+                <li><a href="index.html">Доставка</a></li>
+                <li><a href="index.html">Контакты</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <article>
-            <q><i>Сладости</i> — лучшее лекарство от слез девушки.</q>
-            <pre>
-                ┈┈┈☆☆☆☆☆☆☆☆☆┈┈┈
-                ┈┈╭┻┻┻┻┻┻┻┻┻╮┈┈
-                ┈┈┃╱╲╱╲╱╲╱╲╱┃┈┈
-                ┈╭┻━━━━━━━━━┻╮┈
-                ┈┃╱╲╱╲╱╲╱╲╱╲╱┃┈
-                ┈┗━━━━━━━━━━━┛┈
-            </pre>
-            <p>Вкусный десерт &ne; сахар<sup>2</sup></p>
-        </article>
-        <section class="container">
-            <div class="item-category tort">
-                <p>Торты</p>
+        <div class="img-container">
+            <img id="quote-img" src="images/quote.jpeg" alt="Торт">
+            <q id="quote"><i>Сладости</i> — лучшее лекарство от слез девушки</q>
+        </div>
+
+        <section class="category">
+            <div class="category-container">
+                <a href="#"><img class="item-category" src="images/cake.jpeg" alt="Торт"></a>
+                <div class="item-category-text">Торты</div>
             </div>
-            <div class="item-category bento-tort">
-                <p>Бенто-торты</p>
+            <div class="category-container">
+                <a href="#"><img class="item-category" src="images/bento.jpeg" alt="Бенто-торт"></a>
+                <div class="item-category-text">Бенто-торты</div>
             </div>
-            <div class="item-category cupcake">
-                <p>Кексы</p>
+            <div class="category-container">
+                <a href="#"><img class="item-category" src="images/cupcake.jpeg" alt="Кексы"></a>
+                <div class="item-category-text">Кексы</div>
             </div>
-            <div class="item-category donut">
-                <p>Пончики</p>
+            <div class="category-container">
+                <a href="#"><img class="item-category" src="images/donuts.jpeg" alt="Пончики"></a>
+                <div class="item-category-text">Пончики</div>
             </div>
-            <div class="item-category cake">
-                <p>Пирожные</p>
+            <div class="category-container">
+                <a href="#"><img class="item-category" src="images/macarun.jpeg" alt="Макаруны"></a>
+                <div class="item-category-text">Макарун</div>
             </div>
-            <div class="item-category drinks">
-                <p>Чай&Кофе</p>
+            <div class="category-container">
+                <a href="#"><img class="item-category" src="images/coffee.jpeg" alt="Чашка кофе"></a>
+                <div class="item-category-text">Чай&Кофе</div>
             </div>
         </section>
-        <section class="slider">
-            <p>Тут будет слайдер, а пока...</p>
-            <pre><code>public static void main(String[] args) {
-    System.out.println("Hello, visitors!");
-}</code></pre>
+        <section class="special-offer">
+            <h2>Специальные предложения</h2>
+            <div class="product-wrap">
+                <div class="product-img">
+                    <img class="product" src="images/coffee_cake.jpeg" alt="Кофе и торт">
+                    <img class="wishlist-img" src="images/wishlist.png" alt="Розовое сердце">
+                </div>
+                <div class="product-description">
+                    <h4>Кофе арабика +
+                        <br>
+                        торт "Лесные ягоды"</h4>
+                    <span class="prev-price">3000 </span><span class="actual-price"> 1999 &#8381;</span><br>
+                    <button class="btn-oval">В корзину</button>
+                </div>
+            </div>
+            <div class="product-wrap">
+                <div class="product-img">
+                    <img class="product" src="images/cupcakes_helloween.jpeg" alt="Кексы на хэллоуин">
+                    <img class="wishlist-img" src="images/wishlist.png" alt="Розовое сердце">
+                </div>
+                <div class="product-description">
+                    <h4>Капкейки
+                        <br>
+                        Хэллоуин</h4>
+                    <span class="prev-price">2000 </span><span class="actual-price"> 1500 &#8381; </span><br>
+                    <button class="">В корзину</button>
+                </div>
+            </div>
+            <div class="product-wrap">
+                <div class="product-img">
+                    <img class="product" src="images/tea_cake.jpg" alt="Чай и торт">
+                    <img class="wishlist-img" src="images/wishlist.png" alt="Розовое сердце">
+                </div>
+                <div class="product-description">
+                    <h4>Чай "Эрл Грей" +
+                        <br>
+                        Лимонный тарт</h4>
+                    <span class="prev-price">2500 </span><span class="actual-price"> 1800 &#8381; </span><br>
+                    <button class="">В корзину</button>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-        <h4>Контактная информация</h4>
-        <ul>
-            <li><strong><a href="tel:88008888088">8-800-888-80-88</a></strong></li>
-            <li><a href="mailto:cup-and-cake@mail.ru">cup-and-cake@mail.ru</a></li>
-            <li><a href="t.me/cup-and-cake">@cup-and-cake</a></li>
-            <li>Спб, Кронверский пр. 20 </li>
-        </ul>
+        <div class="text-columns">
+            <div class="text-columns-item contacts">
+                <h3>Контактная информация</h3>
+                <a href="tel:88008888088" class="contact"><img class="text-icon" src="images/ringer_violet.png" alt="Звонок"><strong>8-800-888-80-88</strong></a>
+                <span class="contact"><img class="text-icon" src="images/address.png" alt="Адрес">Санкт-Петербург, Кронверский пр-кт, 20</span>
+                <a href="mailto:cup-and-cake@mail.ru"><img class="icons" src="images/mail.png" alt="Почта"></a>
+                <a href="https://t.me/cup-and-cake"><img id="telegram" class="icons" src="images/telegram.png" alt="Телеграм"></a>
+                <a href="https://vk.com/cup-and-cake"><img class="icons" src="images/vk.png" alt="Вконтакте"></a>
+            </div>
+            <div class="text-columns-item delivery">
+                <h3>Доставка</h3>
+                <p>Доставка осуществляется по Санкт-Петербургу при сумме заказа от 1500&#8381;</p>
+                <ul>
+                    <li><b>Бесплатная доставка</b>: Василеостровский район, Петроградский район, Центральный район </li>
+                    <li><b>350&#8381;</b>: Приморский район, Выборгский район, Калининский район, Адмиралтейский район, Московский район (в пределах КАД), Фрунзенский район, Кировский район, Красносельский район (в пределах КАД), Красногвардейский район, Невский район (в пределах КАД) </li>
+                    <li><b>450&#8381;</b>: Бугры, Лисий Нос, Мурино, Кудрово </li>
+                    <li><b>500&#8381;</b>: Новое Девяткино, Левашово, Янино-1, Шушары </li>
+                </ul>
+                <p>Самовывоз: бесплатно из нашего магазина с 9:00 до 21:00</p>
+            </div>
+        </div>
     </footer>
-    <script src="https://rawcdn.githack.com/ArtMan-8/outline-prototype/e73da2a1ee9031564b56ed5d98541891f7123933/js/outline-control.js"></script>
 </body>
 </html>
