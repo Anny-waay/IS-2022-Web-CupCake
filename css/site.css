@@ -288,10 +288,19 @@ footer .icons{
     margin-top: 0.6em;
 }
 
+thead, tbody, tr{
+    display: contents;
+}
+table{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
 th {
     border-bottom: 1.5px solid #828DDF;
     border-top: 1.5px solid #828DDF;
     padding: 10px 15px;
+    background: #DFE9FF;
 }
 
 td {
@@ -299,7 +308,7 @@ td {
     line-height: 1.5;
 }
 
-tr:nth-child(2n - 1) {
+tr:nth-child(2n-1) td{
     background: #DFE9FF;
 }
 
