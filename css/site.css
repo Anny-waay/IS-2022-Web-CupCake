@@ -1,14 +1,21 @@
 body{
-    font-family: "Gill Sans";
+    font-family: 'Noto Sans', sans-serif;
     padding: 0;
     margin: 0;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    z-index: 9998!important;
+}
+
 .container{
+    position: relative;
+    background: white;
     width: 98%;
-    height: 2.5em;
     float: top;
-    margin: 1%;
+    padding: 1.5% 1% 2.2%;
 }
 
 header a{
@@ -17,23 +24,61 @@ header a{
 }
 
 h1 {
-    float: top;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     display: block;
     margin-top: 0;
-    text-align: center;
-    font-family: Copperplate;
+    font-family: 'Black Ops One', cursive;
     color: #871A62;
 }
+
 h2{
     text-align: center;
-    font-family: Copperplate;
+    font-family: 'Podkova', serif;
 }
+
 h3{
-    font-family: Copperplate;
+    font-family: 'Podkova', serif;
 }
+
+.big-contact{
+    float: left;
+}
+
+.small-contact{
+    float: left;
+}
+
+header button{
+    border: none;
+    background: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFA5CD;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    font-family: 'Podkova', serif;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #871A62;}
+
+.dropdown:hover .dropdown-content {display: block;}
 
 .text-icon{
     width: 1em;
@@ -51,8 +96,10 @@ h3{
 }
 
 header .icons{
-    width: 25px;
-    padding: 5px;
+    float: right;
+}
+
+.small-icons{
     float: right;
 }
 
@@ -60,7 +107,8 @@ header .icons{
     width: 100%;
     text-align: center;
     background-color: #FFA5CD;
-    padding: 10px 0;
+    padding: 1.5% 0;
+    margin-bottom: 1%;
 }
 
 .navbar ul{
@@ -76,7 +124,7 @@ header .icons{
 .navbar a{
     color: white;
     font-size: larger;
-    font-family: Copperplate;
+    font-family: 'Podkova', serif;
     padding: 10px 20px;
 }
 
@@ -89,41 +137,41 @@ header .icons{
     border-color: #828DDF;
     border-style: solid;
     border-width: 2px;
-    margin: 1%;
+    margin: 0 1%;
 }
 
 #quote{
-    font-size: larger;
+    width: 45%;
+    text-indent: 10%;
+    font-style: italic;
     color: #828DDF;
     position: absolute;
     bottom: 50%;
-    transform: translateY(-50%);
+    transform: translateY(50%);
     left: 7%;
 }
 
 .category{
     width: 100%;
     position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .category-container{
-    width: 30%;
     position: relative;
-    display: inline-block;
-    margin: 1.5%;
 }
 
 .item-category {
     width: 100%;
     border-radius: 0 5%;
-    border-width: 0.15em;
     text-align: left;
 }
 
 .item-category-text{
-    font-size: larger;
     font-weight: bold;
-    font-family: Copperplate;
+    font-family: 'Podkova', serif;
     text-transform: uppercase;
     color: #871A62;
     position: absolute;
@@ -133,19 +181,18 @@ header .icons{
 
 .special-offer{
     margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .product-wrap {
-    width: 25%;
     text-align: center;
     background: white;
     box-shadow:  0 0 15px 3px #E3DEDF;
-    margin: 1% 4%;
-    display: inline-block;
 }
 
 .product-wrap button{
-    font-size: small;
     font-weight: bold;
     text-transform: uppercase;
     background-color: #F7F5F7;
@@ -170,28 +217,27 @@ header .icons{
     position: absolute;
     top: 1%;
     right: 1%;
-    width: 12%;
+    width: 13%;
 }
 
 .product-description {
     margin-top: 5%;
     padding-bottom: 5%;
     text-align: center;
-    font-family: 'Open Sans', serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .prev-price {
-    font-size: medium;
     text-decoration: line-through;
 }
 
 .actual-price {
     font-weight: bold;
-    font-size: medium;
     color: #ff7659;
 }
 
 footer{
+    position: absolute;
     background-color: #EDF3FF;
     color: #828DDF
 }
@@ -211,36 +257,62 @@ footer a{
     margin: 2% 4%;
 }
 
-.contacts{
-    width: 23%;
+#contacts-side{
+    width: 25%;
 }
 
-.delivery{
-    width: 60%;
-}
-
-.contact{
+.contact-side{
     display: block;
     margin: 2% 0;
 }
 
-#telegram{
+.left-contact{
+    float: left;
+    display: block;
+    margin: 10px 4%;
+}
+
+.right-icons{
+    float: right;
+}
+
+.telegram{
     width: 2.5em;
+    margin-right: 0.4em;
     padding-bottom: 0.25em;
 }
 
 footer .icons{
     display: inline-block;
-    width: 3em;
     margin-right: 0.4em;
     margin-top: 0.6em;
 }
 
-footer ul{
-    list-style-type: circle;
-    padding-inline-start: 20px;
+thead, tbody, tr{
+    display: contents;
+}
+table{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
 }
 
-footer li{
-    padding: 0.3em 0;
+th {
+    border-bottom: 1.5px solid #828DDF;
+    border-top: 1.5px solid #828DDF;
+    padding: 10px 15px;
+    background: #DFE9FF;
+}
+
+td {
+    padding: 10px 15px;
+    line-height: 1.5;
+}
+
+tr:nth-child(2n-1) td{
+    background: #DFE9FF;
+}
+
+.delivery-price{
+    font-weight: bold;
+    text-align: center;
 }

@@ -5,35 +5,63 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="торт, пирожное, десерт, сладости">
     <link href="css/site.css" rel="stylesheet">
+    <link href="css/scaling.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Noto+Sans&family=Podkova:wght@600&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="images/cake_logo.png" type="image/png">
 </head>
 <body>
     <header>
         <div class="container">
-            <div style="float: left">
+            <div class="small-contact">
+                <div class="dropdown">
+                    <button><img class="drop-btn" src="images/menu.png" alt="Меню"></button>
+                    <div class="dropdown-content">
+                        <a href="#">Каталог</a>
+                        <a href="#">Конструктор десертов</a>
+                        <a href="#delivery">Доставка</a>
+                        <a href="#contacts-bottom">Контакты</a>
+                    </div>
+                </div>
+                <a href="tel:88008888088"><img class="icons" src="images/ringer.png" alt="Телефон"></a>
+            </div>
+            <div class="big-contact">
                 <strong><a href="tel:88008888088"><img class="text-icon" src="images/ringer.png" alt="Телефон">8-800-888-80-88</a></strong>
                 <br>
                 <small>принимаем заказы с 9:00 до 19:00</small>
             </div>
             <h1><img id="cup-logo" src="images/cup_logo.png" alt="Cup">Cup&Cake<img id="cake-logo" src="images/cake_logo.png" alt="Cupcake"></h1>
-            <a href="#"><img class="icons" src="images/basket.png" alt="Корзина"></a>
-            <a href="#"><img class="icons" src="images/heart.png" alt="Сердце"></a>
-            <a href="#"><img class="icons" src="images/user.png" alt="Пользователь"></a>
-            <a href="#"><img class="icons" src="images/search.png" alt="Поиск"></a>
+            <div class="small-icons">
+                <a href="#"><img class="small-icon" src="images/search.png" alt="Поиск"></a>
+                <div class="dropdown">
+                    <button><a href="#"><img class="small-icon" src="images/user.png" alt="Меню"></a></button>
+                    <div class="dropdown-content">
+                        <a href="#"><img class="dropdown-icons" src="images/heart.png" alt="Сердце"></a>
+                        <a href="#"><img class="dropdown-icons" src="images/basket.png" alt="Корзина"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="big-icons">
+                <a href="#"><img class="icons" src="images/basket.png" alt="Корзина"></a>
+                <a href="#"><img class="icons" src="images/heart.png" alt="Сердце"></a>
+                <a href="#"><img class="icons" src="images/user.png" alt="Пользователь"></a>
+                <a href="#"><img class="icons" src="images/search.png" alt="Поиск"></a>
+            </div>
         </div>
         <nav class="navbar">
             <ul>
                 <li><a href="index.html">Каталог</a></li>
                 <li><a href="index.html">Конструктор десертов</a></li>
-                <li><a href="index.html">Доставка</a></li>
-                <li><a href="index.html">Контакты</a></li>
+                <li><a href="#delivery">Доставка</a></li>
+                <li><a href="#contacts-side">Контакты</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <div class="img-container">
-            <img id="quote-img" src="images/quote.jpeg" alt="Торт">
-            <q id="quote"><i>Сладости</i> — лучшее лекарство от слез девушки</q>
+            <img id="quote-img" src="images/quote.jpg" alt="Торт">
+            <q id="quote">Сладости — лучшее лекарство от слез девушки</q>
         </div>
 
         <section class="category">
@@ -62,8 +90,8 @@
                 <div class="item-category-text">Чай&Кофе</div>
             </div>
         </section>
+        <h2>Специальные предложения</h2>
         <section class="special-offer">
-            <h2>Специальные предложения</h2>
             <div class="product-wrap">
                 <div class="product-img">
                     <img class="product" src="images/coffee_cake.jpeg" alt="Кофе и торт">
@@ -107,24 +135,37 @@
     </main>
     <footer>
         <div class="text-columns">
-            <div class="text-columns-item contacts">
+            <div id="contacts-side" class="text-columns-item">
                 <h3>Контактная информация</h3>
-                <a href="tel:88008888088" class="contact"><img class="text-icon" src="images/ringer_violet.png" alt="Звонок"><strong>8-800-888-80-88</strong></a>
-                <span class="contact"><img class="text-icon" src="images/address.png" alt="Адрес">Санкт-Петербург, Кронверский пр-кт, 20</span>
+                <a href="tel:88008888088" class="contact-side"><img class="text-icon" src="images/ringer_violet.png" alt="Звонок"><strong>8-800-888-80-88</strong></a>
+                <span class="contact-side"><img class="text-icon" src="images/address.png" alt="Адрес">Санкт-Петербург, Кронверский пр-кт, 20</span>
                 <a href="mailto:cup-and-cake@mail.ru"><img class="icons" src="images/mail.png" alt="Почта"></a>
-                <a href="https://t.me/cup-and-cake"><img id="telegram" class="icons" src="images/telegram.png" alt="Телеграм"></a>
+                <a href="https://t.me/cup-and-cake"><img class="telegram" src="images/telegram.png" alt="Телеграм"></a>
                 <a href="https://vk.com/cup-and-cake"><img class="icons" src="images/vk.png" alt="Вконтакте"></a>
             </div>
-            <div class="text-columns-item delivery">
+            <div id="delivery" class="text-columns-item">
                 <h3>Доставка</h3>
                 <p>Доставка осуществляется по Санкт-Петербургу при сумме заказа от 1500&#8381;</p>
-                <ul>
-                    <li><b>Бесплатная доставка</b>: Василеостровский район, Петроградский район, Центральный район </li>
-                    <li><b>350&#8381;</b>: Приморский район, Выборгский район, Калининский район, Адмиралтейский район, Московский район (в пределах КАД), Фрунзенский район, Кировский район, Красносельский район (в пределах КАД), Красногвардейский район, Невский район (в пределах КАД) </li>
-                    <li><b>450&#8381;</b>: Бугры, Лисий Нос, Мурино, Кудрово </li>
-                    <li><b>500&#8381;</b>: Новое Девяткино, Левашово, Янино-1, Шушары </li>
-                </ul>
+                <table>
+                    <tr><th>Цена</th><th>Районы доставки</th></tr>
+                    <tr><td class="delivery-price">Бесплатно</td><td>Василеостровский, Петроградский, Центральный</td></tr>
+                    <tr><td class="delivery-price">350&#8381;</td><td>Приморский, Выборгский, Калининский, Адмиралтейский, Московский(в пределах КАД), Фрунзенский, Кировский, Красносельский(в пределах КАД), Красногвардейский, Невский(в пределах КАД)</td></tr>
+                    <tr><td class="delivery-price">450&#8381;</td><td>Бугры, Лисий Нос, Мурино, Кудрово </td></tr>
+                    <tr><td class="delivery-price">500&#8381;</td><td>Новое Девяткино, Левашово, Янино-1, Шушары </td></tr>
+                </table>
                 <p>Самовывоз: бесплатно из нашего магазина с 9:00 до 21:00</p>
+            </div>
+        </div>
+        <div id="contacts-bottom">
+            <div class="left-contact">
+                <h3>Контактная информация</h3>
+                <a href="tel:88008888088" class="contact-side"><img class="text-icon" src="images/ringer_violet.png" alt="Звонок"><strong>8-800-888-80-88</strong></a>
+                <span class="contact-side"><img class="text-icon" src="images/address.png" alt="Адрес">Санкт-Петербург, Кронверский пр-кт, 20</span>
+            </div>
+            <div class="right-icons">
+                <a href="mailto:cup-and-cake@mail.ru"><img class="icons" src="images/mail.png" alt="Почта"></a>
+                <a href="https://t.me/cup-and-cake"><img class="telegram" src="images/telegram.png" alt="Телеграм"></a>
+                <a href="https://vk.com/cup-and-cake"><img class="icons" src="images/vk.png" alt="Вконтакте"></a>
             </div>
         </div>
     </footer>
