@@ -1,25 +1,26 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     .container{
-        height: 40px;
+        height: 5vh;
     }
     h1 {
-        font-size: 30px;
+        padding: 0.5vh 0;
+        font-size: 6vw;
     }
     h2{
         font-size: 20px;
     }
     h3{
-        font-size: 20px;
+        font-size: 18px;
     }
     h4{
-        font-size: 16px;
+        font-size: 15px;
     }
     .big-contact{
         display: none;
     }
     .drop-btn{
         padding: 2px 0;
-        width: 28px;
+        width: calc(20px + 3vw);
     }
     .dropdown-content a {
         font-size: 17px;
@@ -28,21 +29,31 @@
         display: none;
     }
     header .icons{
-        width: 25px;
-        padding: 7px 5px;
+        width: calc(18px + 3vw);
+        padding: 7px 2px;
     }
-    #quote{
-        font-size: 20px;
+    .big-icons{
+        display: none;
+    }
+    .dropdown-icons{
+        width: calc(15px + 2vw);
+    }
+    .small-icon{
+        width: calc(18px + 3vw);
+        padding: 3px 4px 0 0;
+    }
+    .img-container{
+        display: none;
     }
     .category-container{
-        width: 47%;
+        width: 90%;
         margin: 1.5%;
     }
     .item-category-text {
-        font-size: 15px;
+        font-size: 18px;
     }
     .product-wrap {
-        width: 35%;
+        width: 80%;
         margin: 1% 7%;
     }
     .product-description {
@@ -71,7 +82,7 @@
     }
 }
 
-@media screen and (min-width: 700px) and (max-width: 800px){
+@media screen and (min-width: 600px) and (max-width: 800px){
     .container{
         height: 45px;
     }
@@ -103,6 +114,12 @@
     header .icons{
         width: 30px;
         padding: 7px 5px;
+    }
+    .small-icons{
+        display: none;
+    }
+    .dropdown-content{
+        display: none;
     }
     #quote{
         font-size: 25px;
@@ -177,6 +194,12 @@
         width: 35px;
         padding: 7px;
     }
+    .small-icons{
+        display: none;
+    }
+    .dropdown-content{
+        display: none;
+    }
     #quote{
         font-size: 30px;
     }
@@ -240,9 +263,15 @@
     .small-contact{
         display: none;
     }
+    .dropdown-content{
+        display: none;
+    }
     header .icons{
         width: 35px;
         padding: 7px;
+    }
+    .small-icons{
+        display: none;
     }
     .navbar a{
         font-size: 25px;
@@ -308,9 +337,15 @@
     .small-contact{
         display: none;
     }
+    .dropdown-content{
+        display: none;
+    }
     header .icons{
         width: 40px;
         padding: 7px;
+    }
+    .small-icons{
+        display: none;
     }
     .navbar a{
         font-size: 30px;
