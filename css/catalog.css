@@ -1,7 +1,7 @@
 .catalog-menu {
     position: relative;
     padding-bottom: 3%;
-    background-color: #FFA5CD;
+    background-color: #DFE9FF;
 }
 
 .catalog-items{
@@ -14,7 +14,7 @@
     font-weight: bold;
     font-family: 'Podkova', serif;
     text-transform: uppercase;
-    color: white;
+    color: #6F78BF;
     display: block;
     text-align: left;
     padding: 6% 4%;
@@ -22,7 +22,7 @@
 }
 
 .catalog-menu a:hover {
-    background-color: #871A62;
+    background-color: #828DDF;
     color: white;
 }
 
