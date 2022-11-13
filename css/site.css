@@ -132,6 +132,10 @@ header .icons{
     padding: 10px 20px;
 }
 
+.navbar a:hover {
+    text-decoration: underline;
+}
+
 .img-container{
     position: relative;
 }

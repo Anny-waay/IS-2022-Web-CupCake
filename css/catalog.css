@@ -21,6 +21,11 @@
     margin: 0 12%;
 }
 
+.catalog-menu a:hover {
+    background-color: #871A62;
+    color: white;
+}
+
 .catalog-menu input{
     font-family: 'Podkova', serif;
     width: 70.5%;
