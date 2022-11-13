@@ -20,6 +20,10 @@ header{
 
 header a{
     text-decoration: none;
+    color: #871A62;
+}
+
+.big-contact a{
     color: black
 }
 
@@ -179,8 +183,7 @@ header .icons{
     left: 7%;
 }
 
-.special-offer{
-    margin-bottom: 3%;
+.product-cards{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
