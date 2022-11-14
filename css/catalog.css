@@ -19,11 +19,20 @@
     text-align: left;
     padding: 6% 4%;
     margin: 0 12%;
+    border-style: solid;
+    border-color: #DFE9FF;
+    border-width: 2px;
 }
 
 .catalog-menu a:hover {
+    border-style: solid;
+    border-color: #828DDF;
+    border-width: 2px;
+}
+
+.sertan-location{
     background-color: #828DDF;
-    color: white;
+    color: white !important;
 }
 
 .catalog-menu input{
