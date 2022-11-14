@@ -1,6 +1,6 @@
 try {
     const pathname = document.location.pathname
     const navItem = document.querySelector(`[data-nav="${pathname}"]`)
-    navItem.classList.add("sertan-location")
+    navItem.classList.add("current-location")
 }
 catch (e) {}
