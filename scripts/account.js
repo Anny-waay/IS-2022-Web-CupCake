@@ -8,13 +8,12 @@ const template_users = document.getElementById("user-template");
 const template_error = document.getElementById("error-template");
 
 const loadUser = async () => {
-    container.innerHTML = '' +
-        '<img src="images/loading.gif" width="200" height="200" alt="mask">';
+    container.innerHTML = '' + '<img src="../images/loading.gif" width="200" height="200" alt="mask">';
 
     const userNum = Math.floor(Math.random() * 10);
     try {
-        container.innerHTML = '';
         const item = (await getUser()).slice(userNum, userNum + 1)[0]
+        container.innerHTML = '';
         const user = template_users.content.cloneNode(true);
         let p = user.querySelectorAll("p");
         p[0].textContent = "Имя: " + item.name
