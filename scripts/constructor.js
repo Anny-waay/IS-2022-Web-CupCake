@@ -48,47 +48,19 @@ function mapForm(){
 }
 
 function createElementMap(order){
-    let li = document.createElement("li");
-    li.classList.add("constructor-grid")
 
-    let div1 = document.createElement("div");
-    div1.textContent = order.text1;
-    div1.classList.add("text-1")
-    li.appendChild(div1);
+    const template = document.getElementById("cake-constructor");
 
-    let div2 = document.createElement("div");
-    div2.textContent = order.text2;
-    div2.classList.add("text-2")
-    li.appendChild(div2);
+    const li = template.content.cloneNode(true);
+    let divs = li.querySelectorAll("div");
+    divs[0].textContent  = order.text1;
+    divs[1].textContent = order.text2;
+    divs[2].textContent = order.text3;
+    divs[3].textContent = order.text4;
+    divs[4].textContent = order.text5;
 
-    let div3 = document.createElement("div");
-    div3.textContent = order.text3;
-    div3.classList.add("text-3")
-    li.appendChild(div3);
-
-    let div4 = document.createElement("div");
-    div4.textContent = order.text4;
-    div4.classList.add("text-4")
-    li.appendChild(div4);
-
-    let div5 = document.createElement("div");
-    div5.textContent = order.text5;
-    div5.classList.add("text-5")
-    li.appendChild(div5);
-
-    let div6 = document.createElement("div");
-    div6.textContent = "*на фото изображен стандартный дизайн торта, если вы указали другой дизайн, его с вами обсудит оператор";
-    div6.classList.add("text-6")
-    li.appendChild(div6);
-
-    for (let i = 0; i < li.childNodes.length; i++){
-        li.childNodes[i].classList.add("constructor-text");
-    }
-
-    let pic = document.createElement("img")
-    pic.src = order.pic
-    pic.classList.add("picture")
-    li.appendChild(pic);
+    let pic = li.querySelectorAll("img");
+    pic[0].src =  order.pic
 
     document.getElementById("constructor-list").appendChild(li);
 }
@@ -134,6 +106,5 @@ function initData(){
     }
 }
 
-// localStorage.removeItem('order')
 initData();
 setFormOnSubmit();
