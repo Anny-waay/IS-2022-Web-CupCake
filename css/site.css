@@ -20,6 +20,10 @@ header{
 
 header a{
     text-decoration: none;
+    color: #871A62;
+}
+
+.big-contact a{
     color: black
 }
 
@@ -128,11 +132,15 @@ header .icons{
     padding: 10px 20px;
 }
 
+.navbar a:hover {
+    text-decoration: underline;
+}
+
 .img-container{
     position: relative;
 }
 
-#quote-img{
+.main-img{
     width: 97.7%;
     border-color: #828DDF;
     border-style: solid;
@@ -179,8 +187,7 @@ header .icons{
     left: 7%;
 }
 
-.special-offer{
-    margin-bottom: 3%;
+.product-cards{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -239,7 +246,8 @@ header .icons{
 footer{
     position: absolute;
     background-color: #EDF3FF;
-    color: #828DDF
+    color: #828DDF;
+    width: 100%;
 }
 
 footer a{

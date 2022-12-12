@@ -1,6 +1,6 @@
 @media screen and (max-width: 600px) {
     .container{
-        height: 5vh;
+        height: 9vw;
     }
     h1 {
         padding: 0.5vh 0;
@@ -54,7 +54,7 @@
     }
     .product-wrap {
         width: 80%;
-        margin: 1% 7%;
+        margin: 3% 7%;
     }
     .product-description {
         font-size: 15px;
@@ -79,6 +79,26 @@
     }
     #contacts-bottom{
         font-size: 15px;
+    }
+    .catalog-menu {
+        width: 25%;
+        margin: 2%;
+    }
+    .catalog-items{
+        width: 70%;
+    }
+    .catalog-menu a{
+        font-size: 14px;
+    }
+    .catalog-menu input{
+        font-size: 14px;
+    }
+    .catalog-product-wrap{
+        width: 80%;
+        margin: 3% 2%;
+    }
+    .catalog-product-wrap button{
+        font-size: 10px;
     }
 }
 
@@ -133,7 +153,7 @@
     }
     .product-wrap {
         width: 35%;
-        margin: 1% 7%;
+        margin: 3% 7%;
     }
     .product-description {
         font-size: 16px;
@@ -153,15 +173,29 @@
     #contacts-side{
         display: none;
     }
-    #delivery{
+    footer{
         font-size: 16px;
     }
-    #contacts-bottom{
-        font-size: 16px;
+    .catalog-menu {
+        width: 22%;
+        margin: 2%;
+    }
+    .catalog-menu a{
+        font-size: 15px;
+    }
+    .catalog-menu input{
+        font-size: 15px;
+    }
+    .catalog-product-wrap{
+        width: 45%;
+        margin: 3% 2%;
+    }
+    .catalog-product-wrap button{
+        font-size: 11px;
     }
 }
 
-@media screen and (min-width: 800px) and (max-width: 985px){
+@media screen and (min-width: 800px) and (max-width: 1150px){
     .container{
         height: 40px;
     }
@@ -212,7 +246,7 @@
     }
     .product-wrap {
         width: 35%;
-        margin: 1% 7%;
+        margin: 3% 7%;
     }
     .product-description {
         font-size: 17px;
@@ -227,20 +261,34 @@
         width: 43px;
     }
     .right-icons{
-         margin: 80px 10px 20px;
+         margin: 90px 10px 20px;
      }
     #contacts-side{
         display: none;
     }
-    #delivery{
+    footer{
         font-size: 17px;
     }
-    #contacts-bottom{
+    .catalog-menu {
+        width: 22%;
+        margin: 2%;
+    }
+    .catalog-menu a{
         font-size: 17px;
+    }
+    .catalog-menu input{
+        font-size: 17px;
+    }
+    .catalog-product-wrap{
+        width: 45%;
+        margin: 3% 2%;
+    }
+    .catalog-product-wrap button{
+        font-size: 12px;
     }
 }
 
-@media screen and (min-width: 985px) and (max-width: 2000px){
+@media screen and (min-width: 1150px) and (max-width: 2000px){
     .container{
         height: 50px;
     }
@@ -288,7 +336,7 @@
     }
     .product-wrap {
         width: 25%;
-        margin: 1% 4%;
+        margin: 3% 4%;
     }
     .product-description {
         font-size: 18px;
@@ -299,18 +347,37 @@
     footer .icons{
         width: 50px;
     }
+    .right-icons{
+        margin: 90px 10px 20px;
+    }
     .telegram{
         width: 43px;
     }
-    .contact-side{
+    footer{
         font-size: 18px;
     }
     #delivery{
         width: 58%;
-        font-size: 18px;
     }
     #contacts-bottom{
         display: none;
+    }
+    .catalog-menu {
+        width: 20%;
+        margin: 2% 4%;
+    }
+    .catalog-menu a{
+        font-size: 20px;
+    }
+    .catalog-menu input{
+        font-size: 20px;
+    }
+    .catalog-product-wrap{
+        width: 27%;
+        margin: 3% 2%;
+    }
+    .catalog-product-wrap button{
+        font-size: 13px;
     }
 }
 
@@ -319,7 +386,7 @@
         height: 55px;
     }
     h1 {
-        font-size: 45px;
+        font-size: 50px;
     }
     h2 {
         font-size: 40px;
@@ -341,7 +408,7 @@
         display: none;
     }
     header .icons{
-        width: 40px;
+        width: 45px;
         padding: 7px;
     }
     .small-icons{
@@ -362,7 +429,7 @@
     }
     .product-wrap {
         width: 22%;
-        margin: 1% 5.2%;
+        margin: 3% 5.2%;
     }
     .product-description {
         font-size: 23px;
@@ -376,14 +443,33 @@
     .telegram{
         width: 48px;
     }
-    .contact-side{
+    .right-icons{
+        margin: 90px 10px 20px;
+    }
+    footer{
         font-size: 23px;
     }
     #delivery{
         width: 58%;
-        font-size: 23px;
     }
     #contacts-bottom{
         display: none;
+    }
+    .catalog-menu {
+        width: 20%;
+        margin: 2% 4%;
+    }
+    .catalog-menu a{
+        font-size: 25px;
+    }
+    .catalog-menu input{
+        font-size: 25px;
+    }
+    .catalog-product-wrap{
+        width: 25%;
+        margin: 3% 4%;
+    }
+    .catalog-product-wrap button{
+        font-size: 16px;
     }
 }
