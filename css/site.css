@@ -324,3 +324,88 @@ tr:nth-child(2n-1) td{
     font-weight: bold;
     text-align: center;
 }
+
+.form{
+    margin: 0 3%;
+    text-align: center;
+}
+.form-item{
+    display: inline-block;
+    margin: 1% 0;
+}
+.constructor-grid{
+    display: grid;
+    grid-template-areas: "text-1 picture"
+                         "text-2 picture"
+                         "text-3 picture"
+                         "text-4 picture"
+                         "text-5 text-6";
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 3.5em) 7em;
+    width: 60%;
+    margin: 2% 20%;
+    background-color: #EDF3FF;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #828DDF;
+}
+.text-1{
+    grid-area: text-1;
+    text-align: center;
+    font-family: 'Podkova', serif;
+    margin-top: 2%;
+}
+.text-2{
+    grid-area: text-2;
+}
+.text-3{
+    grid-area: text-3;
+}
+.text-4{
+    grid-area: text-4;
+}
+.text-5{
+    grid-area: text-5;
+}
+.text-6{
+    grid-area: text-6;
+}
+.picture{
+    grid-area: picture;
+    height: 100%;
+    display: inline;
+    float: right;
+}
+.constructor-text{
+    align-self: center;
+    padding: 2% 8%;
+}
+.create-btn{
+    font-weight: bold;
+    background-color: #F7F5F7;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 35px;
+    font-size: 1em;
+}
+#user-container{
+    width: 30%;
+    margin: 2% 35%;
+}
+.user-info{
+    color: #828DDF;
+    font-weight: 600;
+    padding: 3% 4%;
+    margin: 3%;
+    background-color: #EDF3FF;
+    border-color: #828DDF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 35px;
+    font-size: 1em;
+}
+#error-template p{
+    font-size: 1em;
+}

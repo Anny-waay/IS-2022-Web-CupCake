@@ -1,4 +1,7 @@
 @media screen and (max-width: 600px) {
+    .body{
+        font-size: 15px;
+    }
     .container{
         height: 9vw;
     }
@@ -56,9 +59,6 @@
         width: 80%;
         margin: 3% 7%;
     }
-    .product-description {
-        font-size: 15px;
-    }
     .product-wrap button{
         font-size: 10px;
     }
@@ -74,24 +74,12 @@
     #contacts-side{
         display: none;
     }
-    #delivery{
-        font-size: 15px;
-    }
-    #contacts-bottom{
-        font-size: 15px;
-    }
     .catalog-menu {
         width: 25%;
         margin: 2%;
     }
     .catalog-items{
         width: 70%;
-    }
-    .catalog-menu a{
-        font-size: 14px;
-    }
-    .catalog-menu input{
-        font-size: 14px;
     }
     .catalog-product-wrap{
         width: 80%;
@@ -100,9 +88,23 @@
     .catalog-product-wrap button{
         font-size: 10px;
     }
+    .form{
+        font-size: 17px;
+    }
+    .text-1{
+        font-size: 19px;
+    }
+    .constructor-grid {
+        width: 85%;
+        margin: 2% 7% 2% 4%;
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 800px){
+    .body{
+        font-size: 16px;
+    }
     .container{
         height: 45px;
     }
@@ -155,9 +157,6 @@
         width: 35%;
         margin: 3% 7%;
     }
-    .product-description {
-        font-size: 16px;
-    }
     .product-wrap button{
         font-size: 11px;
     }
@@ -173,18 +172,9 @@
     #contacts-side{
         display: none;
     }
-    footer{
-        font-size: 16px;
-    }
     .catalog-menu {
         width: 22%;
         margin: 2%;
-    }
-    .catalog-menu a{
-        font-size: 15px;
-    }
-    .catalog-menu input{
-        font-size: 15px;
     }
     .catalog-product-wrap{
         width: 45%;
@@ -193,9 +183,23 @@
     .catalog-product-wrap button{
         font-size: 11px;
     }
+    .form{
+        font-size: 18px;
+    }
+    .text-1{
+        font-size: 20px;
+    }
+    .constructor-grid {
+        width: 85%;
+        margin: 2% 7% 2% 4%;
+        font-size: 16px;
+    }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1150px){
+    .body{
+        font-size: 17px;
+    }
     .container{
         height: 40px;
     }
@@ -248,9 +252,6 @@
         width: 35%;
         margin: 3% 7%;
     }
-    .product-description {
-        font-size: 17px;
-    }
     .product-wrap button{
         font-size: 12px;
     }
@@ -266,18 +267,9 @@
     #contacts-side{
         display: none;
     }
-    footer{
-        font-size: 17px;
-    }
     .catalog-menu {
         width: 22%;
         margin: 2%;
-    }
-    .catalog-menu a{
-        font-size: 17px;
-    }
-    .catalog-menu input{
-        font-size: 17px;
     }
     .catalog-product-wrap{
         width: 45%;
@@ -286,9 +278,23 @@
     .catalog-product-wrap button{
         font-size: 12px;
     }
+    .form{
+        font-size: 19px;
+    }
+    .text-1{
+        font-size: 20px;
+    }
+    .constructor-grid {
+        width: 85%;
+        margin: 2% 7% 2% 4%;
+        font-size: 16px;
+    }
 }
 
-@media screen and (min-width: 1150px) and (max-width: 2000px){
+@media screen and (min-width: 1150px) and (max-width: 1700px){
+    .body{
+        font-size: 18px;
+    }
     .container{
         height: 50px;
     }
@@ -305,7 +311,6 @@
         font-size: 20px;
     }
     .big-contact{
-        font-size: 17px;
         margin: 5px;
     }
     .small-contact{
@@ -338,9 +343,6 @@
         width: 25%;
         margin: 3% 4%;
     }
-    .product-description {
-        font-size: 18px;
-    }
     .product-wrap button{
         font-size: 13px;
     }
@@ -352,9 +354,6 @@
     }
     .telegram{
         width: 43px;
-    }
-    footer{
-        font-size: 18px;
     }
     #delivery{
         width: 58%;
@@ -379,9 +378,21 @@
     .catalog-product-wrap button{
         font-size: 13px;
     }
+    .form{
+        font-size: 19px;
+    }
+    .constructor-grid{
+        font-size: 18px;
+    }
+    .text-1{
+        font-size: 24px;
+    }
 }
 
-@media screen and (min-width: 2000px){
+@media screen and (min-width: 1700px){
+    .body{
+        font-size: 23px;
+    }
     .container{
         height: 55px;
     }
@@ -431,9 +442,6 @@
         width: 22%;
         margin: 3% 5.2%;
     }
-    .product-description {
-        font-size: 23px;
-    }
     .product-wrap button{
         font-size: 16px;
     }
@@ -445,9 +453,6 @@
     }
     .right-icons{
         margin: 90px 10px 20px;
-    }
-    footer{
-        font-size: 23px;
     }
     #delivery{
         width: 58%;
@@ -471,5 +476,19 @@
     }
     .catalog-product-wrap button{
         font-size: 16px;
+    }
+    .form{
+        font-size: 25px;
+    }
+    .constructor-text{
+        font-size: 23px;
+    }
+    .text-1{
+        font-size: 27px;
+    }
+    .constructor-grid {
+        grid-template-rows: repeat(4, 5em) 8em;
+        width: 50%;
+        margin: 2% 25%;
     }
 }
