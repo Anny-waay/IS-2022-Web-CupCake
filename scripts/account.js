@@ -1,5 +1,6 @@
 const getUser = async () => {
-    return await fetch(`https://jsonplaceholder.typicode.com/users`)
+    const id = Math.floor(Math.random() * 10);
+    return await fetch(`https://jsonplaceholder.typicode.com/users?id=${id}`)
         .then(response => response.json());
 }
 
@@ -10,9 +11,8 @@ const template_error = document.getElementById("error-template");
 const loadUser = async () => {
     container.innerHTML = '' + '<img src="../images/loading.gif" width="200" height="200" alt="mask">';
 
-    const userNum = Math.floor(Math.random() * 10);
     try {
-        const item = (await getUser()).slice(userNum, userNum + 1)[0]
+        const item = (await getUser())[0]
         container.innerHTML = '';
         const user = template_users.content.cloneNode(true);
         let p = user.querySelectorAll("p");
