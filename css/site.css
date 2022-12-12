@@ -390,3 +390,22 @@ tr:nth-child(2n-1) td{
     border-radius: 35px;
     font-size: 1em;
 }
+#user-container{
+    width: 30%;
+    margin: 2% 35%;
+}
+.user-info{
+    color: #828DDF;
+    font-weight: 600;
+    padding: 3% 4%;
+    margin: 3%;
+    background-color: #EDF3FF;
+    border-color: #828DDF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 35px;
+    font-size: 1em;
+}
+#error-template p{
+    font-size: 1em;
+}

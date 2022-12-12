@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="keywords" content="торт, пирожное, десерт, сладости">
   <link href="../css/site.css" rel="stylesheet">
-  <link href="../css/catalog.css" rel="stylesheet">
   <link href="../css/scaling.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,7 +36,7 @@
     <div class="small-icons">
       <a href="#"><img class="small-icon" src="../images/search.png" alt="Поиск"></a>
       <div class="dropdown">
-        <button><a href="account.html"><img class="small-icon" src="../images/user.png" alt="Меню"></a></button>
+        <button><a href="#"><img class="small-icon" src="../images/user.png" alt="Меню"></a></button>
         <div class="dropdown-content">
           <a href="#"><img class="dropdown-icons" src="../images/heart.png" alt="Сердце"></a>
           <a href="#"><img class="dropdown-icons" src="../images/basket.png" alt="Корзина"></a>
@@ -47,7 +46,7 @@
     <div class="big-icons">
       <a href="#"><img class="icons" src="../images/basket.png" alt="Корзина"></a>
       <a href="#"><img class="icons" src="../images/heart.png" alt="Сердце"></a>
-      <a href="account.html"><img class="icons" src="../images/user.png" alt="Пользователь"></a>
+      <a href="#"><img class="icons" src="../images/user.png" alt="Пользователь"></a>
       <a href="#"><img class="icons" src="../images/search.png" alt="Поиск"></a>
     </div>
   </div>
@@ -61,27 +60,19 @@
   </nav>
 </header>
 <main>
-  <div class="text-columns">
-    <div class="text-columns-item catalog-menu" id="menu">
-      <label>
-        <input type="text" value="" placeholder="Поиск">
-      </label>
-      <a href="catalog.html">Все позиции</a>
-      <a href="catalog-cakes.html">Торты</a>
-      <a href="catalog-bento.html">Бенто-торты</a>
-      <a href="catalog-cupcakes.html">Капкейки</a>
-      <a href="catalog-donuts.html">Пончики</a>
-      <a href="catalog-macaroni.html">Макарони</a>
-      <a href="catalog-drinks.html">Чай&Кофе</a>
-      <script src="../scripts/display_location.js"></script>
-    </div>
-    <script type="text/javascript">displayLocation('menu');</script>
-    <div class="text-columns-item catalog-items">
-      <h2>Капкейки</h2>
-      <section class="product-cards">
-      </section>
-    </div>
+  <div id="user-container">
+    <template id="user-template">
+      <p class="user-info"></p>
+      <p class="user-info"></p>
+      <p class="user-info"></p>
+      <p class="user-info"></p>
+      <p class="user-info"></p>
+    </template>
+    <template id="error-template">
+      <p>Кажется вам не удалось войти...</p>
+    </template>
   </div>
+  <script type="text/javascript" src="../scripts/account.js"></script>
 </main>
 <footer>
   <div id="#catalog-contacts">
@@ -98,5 +89,6 @@
     </div>
   </div>
 </footer>
+<script src="../scripts/constructor.js"></script>
 </body>
 </html>
